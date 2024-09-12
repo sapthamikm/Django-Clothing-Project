@@ -1,0 +1,31 @@
+
+/* static/css/styles.css */
+
+
+/* Centering the image horizontally and vertically */
+
+ 
+.image-container
+{
+
+    display: flex;          /* Enable Flexbox layout */
+
+    justify-content: center; /* Center horizontally */
+
+    align-items: center;   /* Center vertically */
+
+    height: 100vh;          /* Full viewport height */
+
+    margin: 0;              /* Remove default margin */
+
+    text-align: center;     /* Center text if necessary */
+
+}
+
+.image-container img {
+
+    max-width: 100%; /* Ensure the image scales well */
+
+    height: auto;    /* Maintain aspect ratio */
+
+}
